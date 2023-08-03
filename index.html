@@ -9,7 +9,10 @@
   <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="stylesheet/reset.css">
   <link rel="stylesheet" href="stylesheet/style.css">
+
+
 
 </head>
 <body>
@@ -22,6 +25,7 @@
     </nav>
   </header>
   
+
   <section class="hero">
       <img src="images/illustration-intro.png">
       <h1>All your files in one secure location, accessible anywhere.</h1>
@@ -32,29 +36,47 @@
       <button>Get Started</button>
   </section>
   
+
   <section class="features">
-      <h2>Access your files, anywhere</h2>
+    <section>
+        <img src="images/icon-access-anywhere.svg">
 
-      <p>The ability to use a smartphone, tablet, or computer to access your account means your 
-      files follow you everywhere.</p>
+        <h2>Access your files, anywhere</h2>
 
-      <h2>Security you can trust</h2>
+        <p>The ability to use a smartphone, tablet, or computer to access your account means your 
+        files follow you everywhere.</p>
+    </section>
 
-      <p>2-factor authentication and user-controlled encryption are just a couple of the security 
-      features we allow to help secure your files.</p>
+    <section>
+        <img src="images/icon-security.svg">
 
-      <h2>Real-time collaboration</h2>
+        <h2>Security you can trust</h2>
 
-      <p>Securely share files and folders with friends, family and colleagues for live collaboration. 
-      No email attachments required.</p>
+        <p>2-factor authentication and user-controlled encryption are just a couple of the security 
+        features we allow to help secure your files.</p>
+    </section>
 
-      <h2>Store any type of file</h2>
+    <section>
+        <img src="images/icon-collaboration.svg">
 
-      <p>Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all 
-      file types to be securely stored and shared.</p>
+        <h2>Real-time collaboration</h2>
+
+        <p>Securely share files and folders with friends, family and colleagues for live collaboration. 
+        No email attachments required.</p>
+    </section>
+
+    <section>
+        <img src="images/icon-any-file.svg">
+
+        <h2>Store any type of file</h2>
+
+        <p>Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all 
+        file types to be securely stored and shared.</p>
+    </section>
   </section>
 
-  <section class="Mid">
+
+  <section class="mid">
     <img src="images/illustration-stay-productive.png">
       <h2>Stay productive, wherever you are</h2>
       
@@ -64,73 +86,89 @@
       <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email 
       attachments required.</p>
 
-      <a>See how Fylo works <img src="images/icon-arrow.svg"></a>
+      <a>See how Fylo works<img src="images/icon-arrow.svg"></a>
   </section>
 
-  <section class="Team">
+
+  <section class="team">
     <img src="images/bg-quotes.png">
-      <section>
+      <section class="profileBox">
         <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
         become a well-oiled collaboration machine.</p>
 
-        <img src="images/profile-1.jpg">
-        <h2>Satish Patel</h2>
-        </h3>Founder & CEO, Huddle</h3>
+        <section class="profileSet">
+            <img src="images/profile-1.jpg">
+          <section class="profileInfo">
+            <h2>Satish Patel</h2>
+            <h3>Founder & CEO, Huddle</h3>
+          </section>
+        </section>
       </section>
 
-      <section>
+      <section class="profileBox">
         <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
         become a well-oiled collaboration machine.</p>
-
-        <img src="images/profile-2.jpg">
-        <h2>Bruce McKenzie</h2>
-        <h3>Founder & CEO, Huddle</h3>
+        
+        <section class="profileSet">
+          <img src="images/profile-2.jpg">
+          <section class="profileInfo">
+            <h2>Bruce McKenzie</h2>
+            <h3>Founder & CEO, Huddle</h3>
+          </section>
+        </section>
      </section>
 
-     <section>
+     <section class="profileBox">
         <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
         become a well-oiled collaboration machine.</p>
 
-        <img src="images/profile-3.jpg">
-        <h2>Iva Boyd</h2>
-        </h3>Founder & CEO, Huddle</h3>
+        <section class="profileSet">
+            <img src="images/profile-3.jpg">
+          <section class="profileInfo">
+            <h2>Iva Boyd</h2>
+            <h3>Founder & CEO, Huddle</h3>
+          </section>
+        </section>
       </section>
   </section>
 
 
-  <section class="signIn">
+  <footer>
+    <section class="signIn">
       <h1>Get early access today</h1>
-
+  
       <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
       questions, our support team would be happy to help you.</p>
-
+  
       <input type="email" id="email" placeholder="email@example.com" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" >
       <button>Get Started For Free</button>
-  </section>
+    </section>
 
+    <section class="contact">
+      <section class="info">
+        <img src="images/logo.svg" class="bottomLogo">
+        <h2><img src="images/icon-location.svg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+        dolore magna aliqua</h2>
 
-  <img src="images/logo.svg" class="bottomLogo">
-  <h2><img src="images/icon-location.svg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-  dolore magna aliqua</h2>
+        <h2><img src="images/icon-phone.svg">+1-543-123-4567</h2>
+        <h2><img src="images/icon-email.svg">example@fylo.com</h2>
+      </section>
 
-  <h2><img src="images/icon-phone.svg">+1-543-123-4567</h2>
-  <h2><img src="images/icon-email.svg">example@fylo.com</h2>
+      <ul>About Us
+        <li>Jobs</li>
+        <li>Press</li>
+        <li>Blog</li>
+      </ul>
 
-  <ul>About Us
-    <li>Jobs</li>
-    <li>Press</li>
-    <li>Blog</li>
-  </ul>
+      <ul>Contact Us
+        <li>Terms</li>
+        <li>Privacy</li>
+      </ul>
+    </section>
 
-  <ul>Contact Us
-    <li>Terms</li>
-    <li>Privacy</li>
-  </ul>
-
-  <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="nmorente.builds@gmail.com">Nicole Angelo Morente</a>.
     </p>
   </footer>
 </body>
