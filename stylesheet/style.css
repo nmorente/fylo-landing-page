@@ -1,5 +1,5 @@
 body {
-    background-color: #21293C;
+    background-color: hsl(217, 28%, 15%);
     color: #ffffff;
     font-family:'Open Sans', sans-serif;
     padding-top: 20px;
@@ -7,8 +7,8 @@ body {
 
 @media screen and (max-width: 425px) {
 body{
-    width: 425px;
-    height: 1100px;
+    width: 375px;
+    height: 1440px;
 }
 
 
@@ -17,66 +17,75 @@ body{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        padding-top: 25px;
+        padding-top: 5px;
         padding-left: .8rem;
         padding-right: .8rem;
+        background-color: hsl(217, 28%, 15%);
     }
 
     header img{
-        width: 25%;
+        width: 30%;
         height: 30%;
     }
 
     nav{
         padding-top: .5rem;
-        padding-left: 3.2rem;
+        padding-left: 3rem;
     }
 
     nav a{
-        padding-left: 2.1rem;
+        padding-left: 1rem;
         color: white;
         text-decoration: none;
-        font-family: sans-serif;
-        font-size: .9rem;
+        font-size: .8rem;
     }
 
 /* Hero */
     .hero{
-        background-image: url(bg-curvy-mobile.svg);
-        background-size: 450px;
-        background-repeat: no-repeat;
-        background-position: bottom 240px left 2px;
+        background-color:hsl(218, 28%, 13%);
         display: flex;
         flex-direction: column;
-        padding-top: 60px;
     }
 
     .hero img{
-        width: 83%;
-        padding-left: 2.5rem;
+        background: none;
+        padding-top: 60px;
+        padding-bottom: 30px;
+        width: 95%;
+        height: 50%;
+        padding-left: .5rem;
+        padding-right: .5rem;
     }
 
     .hero h1{
+        background-image: url(bg-curvy-mobile.svg);
+        background-color: (217, 28%, 15%);
+        background-size: 460px 40%;
+        background-repeat: no-repeat;
+        background-position: right 60% bottom 0%;
+        background-color: hsl(217, 28%, 15%);
         padding-top: 30px;
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
         text-align: center;
         font-family:'Raleway', sans-serif;
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         line-height: 2.5rem;
+        font-weight: bold;
     }
 
     .hero p{
-        background-color: #181F2B;
-        padding-top: 30px;
+
+        padding-top: 10px;
         padding-left: 2.3rem;
         padding-right: 2.2em;
-        font-size: 1.1rem;
+        font-size: .9rem;
         text-align: center;
         line-height: 1.5rem;
     }
 
     .hero button{
+
         margin-top: 2rem;
         margin-left: 5.2rem;
         margin-right: 4rem;
@@ -84,14 +93,14 @@ body{
         height: 3rem;
         border-radius: 30rem;
         border: 0;
-        background: linear-gradient(45deg, #49e1ff, #229dc3);
+        background: linear-gradient(45deg, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
         color: #ffffff;
         font-size: 1rem;
     }
 
 /* Features */
     .features {
-        background-color: #181F2B;
+        background-color: hsl(218, 28%, 13%);
         display: flex;
         flex-direction: column;
         padding-left: 1.5rem;
@@ -111,62 +120,75 @@ body{
 
     .features section p{
         padding-top: 1rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
+        padding-left: .6rem;
+        padding-right: .2rem;
+        font-size: .9rem;
+        line-height: 1.5rem;
+    }
+
+    .features section.store p{
+        font-size: .84rem;
     }
 
 /* Mid */
 
     .mid {
-        background-color: #181F2B;
+        background-color: hsl(218, 28%, 13%);
         display: flex;
         flex-direction: column;
-        padding-top: 15rem;
+        padding-top: 8rem;
         padding-left: 1.5rem;
-        padding-right: 2.5rem;
+        padding-right: 1.8rem;
+        line-height: 1.4rem;
         
     }
 
-    .mid img{
+    .mid img.people{
         width: 90%;
         padding-left: 1.5rem;
     }
 
     .mid h2{
         padding-top: 2.7rem;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 
     .mid p{
-        padding-top: 1rem;
+        padding-top: 2rem;
+        font-size: .88rem;
     }
 
     .mid a{
         padding-top: .5rem;
-        text-decoration: underline;
+        padding-bottom: .2rem;
+        width: 45%;
+        text-decoration: none;
         font-size: .8rem;
-        color: #49ffed;
+        color: hsl(176, 68%, 64%);
+        border-bottom: solid 2px hsl(176, 68%, 64%);
     }
 
     .mid a img{
-        width: 4%;
-        padding-left: .5rem;
+        width: 10%;
+        padding-left: .4rem;
     }
 
 /* Team */
 
     .team {
-        background-color: #181F2B;
+        background-color: hsl(218, 28%, 13%);
         display: flex;
         flex-direction: column;
         padding-top: 10rem;
-        padding-left: 1.5rem;
+        height: 55rem;
+    }
+    .team section.teamProfile{
+        padding-left: 2.5rem;
         padding-right: 2.5rem;
-        height: 50rem;
     }
 
     .team img{
-        width: 6%;
+        width: 9%;
         padding-left: .2rem;
     }
 
@@ -177,12 +199,11 @@ body{
         padding-left: 1.6rem;
         padding-right: 1.6rem;
         width: 86%;
-        height: 11rem;
+        height: 9.5rem;
     }
 
     .team section.profileBox p{
-        font-size: .8rem;
-        padding-right: 1rem;
+        font-size: .7rem;
         font-weight: lighter;
         line-height: 1.3rem;
     }
@@ -190,11 +211,12 @@ body{
     .team section.profileBox section.profileSet{
         display: flex;
         flex-direction: row;
-        padding-top: 2rem;
+        padding-top: 1rem;
     }
 
     .team section.profileBox section.profileSet img{
-        width: 2rem;
+        width: 1.5rem;
+        height: 10%;
         border-radius: 20rem;
     }
 
@@ -205,93 +227,152 @@ body{
     }
 
     .team section.profileBox section.profileSet section.profileInfo h2{
-        font-size: .8rem;
+        font-size: .7rem;
         font-weight: bold;
-        letter-spacing: .1rem;
+        letter-spacing: .06rem;
     }
 
     .team section.profileBox section.profileSet section.profileInfo h3{
         padding-top: .5rem;
         font-weight: lighter;
-        font-size: .7rem;
+        font-size: .5rem;
+        letter-spacing: .06rem;
+    }
+
+    /* Sign In */
+    .team section.signIn {
+        display: flex;
+        flex-direction: column;
+        background-color: hsl(217, 28%, 15%);
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border-radius: 5%;
+        border: solid 1px hsl(217, 28%, 15%);
+        text-align: center;
+        box-shadow:  10px 10px 20px #0a0a0ab4;
+        padding-bottom:  2rem;
+        width: 90%;
+    }
+
+    .team .signIn h1{
+        padding-top: 3rem;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .team .signIn p{
+        padding-top: 1rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        font-size: .86rem;
+        line-height: 1.5rem;
+    }
+
+    .team .signIn input{
+        margin-top: 2rem;
+        margin-left: 1.5rem;
+        margin-right: 4rem;
+        width: 16rem;
+        height: 3rem;
+        border-radius: 30rem;
+        border: 0;
+        padding-left: 2rem;
+        font-size: .8rem;
+    }
+
+    .team .signIn input::placeholder{
+        opacity: 30%;
+    }
+
+
+    .team .signIn button{
+        margin-top: 1rem;
+        margin-left: 1.5rem;
+        margin-right: 2rem;
+        width: 18rem;
+        height: 3.3rem;
+        border-radius: 30rem;
+        border: 0;
+        background: linear-gradient(45deg, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+        color: #ffffff;
+        font-size: 1rem;
     }
 
 /* Footer */
 footer {
     display: flex;
     flex-direction: column;
-    background-color: #0c1524;
+    background-color: hsl(216, 53%, 9%);
     align-items: center;
-
-
-    /* Sign In */
-        .signIn {
-            display: flex;
-            flex-direction: column;
-            background-color: #1e2737;
-            margin-left: .5rem;
-            margin-bottom: 5rem;
-            width: 88%;
-            height: 24rem;
-            border-radius: 5%;
-            border: solid 1px #1e2737;
-            text-align: center;
-            box-shadow:  10px 10px 20px #000;
-        }
-
-        .signIn h1{
-            padding-top: 3rem;
-            font-size: 1.3rem;
-        }
-
-        .signIn p{
-            padding-top: 2rem;
-            padding-left: 2rem;
-            padding-right: 2rem;
-            font-size: 1rem;
-            line-height: 1.5rem;
-        }
-
-        .signIn input{
-            margin-top: 2rem;
-            margin-left: 3rem;
-            margin-right: 4rem;
-            width: 16rem;
-            height: 3rem;
-            border-radius: 30rem;
-            border: 0;
-            padding-left: 2rem;
-            font-size: .8rem;
-        }
-
-        .signIn input::placeholder{
-            opacity: 30%;
-        }
-
-
-        .signIn button{
-            margin-top: 2rem;
-            margin-left: 3rem;
-            margin-right: 4rem;
-            width: 18rem;
-            height: 3rem;
-            border-radius: 30rem;
-            border: 0;
-            background: linear-gradient(45deg, #49e1ff, #229dc3);
-            color: #ffffff;
-            font-size: 1rem;
-        }
 
     /* Contact */
         .contact {
             display: flex;
             flex-direction: column;
+            padding-top: 15rem;
             padding-left: 1.5rem;
             padding-right: 2.5rem;
         }
 
-        .contact section.info {
+        .contact section.infoBox {
             padding-bottom: 2rem;
         }
+
+        .contact section.infoBox img.bottomLogo{
+            width: 55%;
+            padding-left: 1rem;
+            padding-bottom: 2rem;
+        }
+
+        .contact section.infoBox section{
+            display: flex;
+            flex-direction: row;
+            padding-top: 1rem;
+        }
+
+
+        .contact section.infoBox section img{
+            padding-top: .3rem;
+            padding-left: 1rem;
+        }
+
+        .contact section.infoBox section.location img{
+            width: 7%;
+            height: 1.3rem;
+        }
+
+        .contact section.infoBox section.phone img{
+            width: 5%;
+            height: .9rem;
+        }
+
+        .contact section.infoBox section.email img{
+            width: 8.5%;
+            height: 1.1rem;
+        }
+
+        .contact section.infoBox section p{
+            clear: right;
+            padding-left: 1.8rem;
+            line-height: 1.5rem;
+            font-size: .9rem;
+        }
+
+        .contact section.infoBox section.email p{
+            padding-left: 1.3rem;
+        }
+
+        .contact ul{
+            padding-top: 3rem;
+            font-size: 1.2rem;
+        }
+
+        .contact ul li{
+            padding-top: 1rem;
+        }
+
+       .attribution{
+        padding-top: 3rem;
+       }
     }
 }
