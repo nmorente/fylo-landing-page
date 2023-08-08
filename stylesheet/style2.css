@@ -1,0 +1,794 @@
+/* Default Style = Mobile-First */
+body {
+    background-color: hsl(219, 30%, 18%);
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    width: 100vw;
+    padding-top: 20px;
+}
+
+/* header */
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 2px;
+    padding-left: 1.5rem;
+    padding-right: .8rem;
+    background-color: hsl(219, 30%, 18%);
+}
+
+header img {
+    width: 28%;
+}
+
+nav {
+    padding-top: .5rem;
+    padding-left: 2.8rem;
+}
+
+nav a {
+    padding-left: 1rem;
+    color: white;
+    text-decoration: none;
+    font-size: .8rem;
+}
+
+/* Hero */
+.hero {
+    background-image: url(bg-curvy-mobile.svg);
+    background-color: (217, 28%, 15%);
+    background-size: 450px 50%;
+    background-repeat: no-repeat;
+    background-position: right 60% bottom 0%;
+    background-color: hsl(219, 30%, 18%);
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero img {
+    background: none;
+    padding-top: 25px;
+    width: 80%;
+    height: 60%;
+    padding-left: 3.5rem;
+    padding-right: .5rem;
+}
+
+.hero h1 {
+    padding-top: 40px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    font-weight: bold;
+}
+
+.hero p {
+    padding-top: 10px;
+    padding-left: 2.3rem;
+    padding-right: 2.2em;
+    height: 20rem;
+    font-size: .9rem;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.hero button {
+    margin-top: 2rem;
+    margin-left: 3.8rem;
+    margin-right: 4rem;
+    padding: 1rem;
+    width: 16rem;
+    height: 10rem;
+    border-radius: 30rem;
+    border: 0;
+    background: linear-gradient(45deg, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+/* Features */
+.features {
+    background-color: hsl(218, 28%, 13%);
+    display: flex;
+    flex-direction: column;
+    padding-top: 15rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    text-align: center;
+}
+
+.features section {
+    padding-top: 5rem;
+}
+
+.features section h2 {
+    padding-top: 1.4rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.features section p {
+    padding-top: 1rem;
+    padding-left: .6rem;
+    padding-right: .2rem;
+    font-size: .9rem;
+    line-height: 1.5rem;
+}
+
+.features section.bottomFeatures{
+    padding-top: 0rem;
+}
+
+.features section.bottomFeatures section.featureItems section.store{
+    padding-top: 0rem;
+}
+
+.features section.bottomFeatures section.featureItems section.store p {
+    font-size: .85rem;
+}
+
+/* Mid */
+
+.mid {
+    background-color: hsl(218, 28%, 13%);
+    display: flex;
+    flex-direction: column;
+    padding-top: 8rem;
+    padding-left: 1rem;
+    padding-right: .5rem;
+    line-height: 1.4rem;
+
+}
+
+.mid img.people {
+    width: 90%;
+    padding-left: 1.5rem;
+}
+
+.mid h2 {
+    padding-top: 2.5rem;
+    font-size: 1.13rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.mid p {
+    padding-top: 1rem;
+    font-size: .86rem;
+}
+
+.mid section.prodcutiveBox{
+    padding-top: .5rem;
+    padding-left: .5rem;
+    width: 90%;
+}
+
+.mid section a {
+    line-height: 2rem;
+    font-size: .9rem;
+    text-decoration: none;
+    color: hsl(176, 68%, 64%);
+}
+
+.mid section img {
+    padding-left: .4rem;
+    width: 12%;
+}
+
+.mid section.prodcutiveBox section.works{
+    padding-top: .5rem;
+    width: 56%;
+    border-bottom: solid 1px hsl(176, 68%, 64%);
+}
+
+/* Team */
+
+.team {
+    background-color: hsl(218, 28%, 13%);
+    display: flex;
+    flex-direction: column;
+    height: 63rem;
+    padding-top: 10rem;
+}
+
+.team section.teamProfile {
+    background-image: url(bg-quotes.png);
+    background-repeat: no-repeat;
+    background-position: bottom 97.2% left 12%;
+    background-size: 1rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+.team img {
+    width: 8%;
+    padding-left: .2rem;
+}
+
+.team section.profileBox {
+    background-color: #21293C;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-top: 2.3rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+    width: 86%;
+    height: 9.5rem;
+}
+
+.team section.profileBox p {
+    font-size: .7rem;
+    font-weight: lighter;
+    line-height: 1.3rem;
+}
+
+.team section.profileBox section.profileSet {
+    display: flex;
+    flex-direction: row;
+    padding-top: 1rem;
+}
+
+.team section.profileBox section.profileSet img {
+    width: 1.5rem;
+    height: 10%;
+    border-radius: 20rem;
+}
+
+.team section.profileBox section.profileSet section.profileInfo {
+    display: flex;
+    flex-direction: column;
+    padding-left: .8rem;
+}
+
+.team section.profileBox section.profileSet section.profileInfo h2 {
+    font-size: .7rem;
+    font-weight: bold;
+    letter-spacing: .06rem;
+}
+
+.team section.profileBox section.profileSet section.profileInfo h3 {
+    padding-top: .5rem;
+    font-weight: lighter;
+    font-size: .5rem;
+    letter-spacing: .06rem;
+}
+
+/* Sign In */
+.team section.signIn {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(217, 28%, 15%);
+    margin-top: 8rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 3%;
+    border: solid 1px hsl(217, 28%, 15%);
+    text-align: center;
+    box-shadow: 10px 10px 20px #0a0a0ab4;
+    padding-bottom: 2rem;
+    width: 90%;
+}
+
+.team .signIn h1 {
+    padding-top: 3rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.team .signIn p {
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-size: .86rem;
+    line-height: 1.5rem;
+}
+
+.team .signIn input {
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+    margin-right: 4rem;
+    width: 16rem;
+    height: 3rem;
+    border-radius: 30rem;
+    border: 0;
+    padding-left: 2rem;
+    font-size: .8rem;
+}
+
+.team .signIn input::placeholder {
+    opacity: 30%;
+}
+
+
+.team .signIn button {
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 2rem;
+    width: 18rem;
+    height: 3.3rem;
+    border-radius: 30rem;
+    border: 0;
+    background: linear-gradient(45deg, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(216, 53%, 9%);
+    align-items: center;
+
+    /* Contact */
+    .contact {
+        display: flex;
+        flex-direction: column;
+        padding-top: 15rem;
+        padding-left: 1.5rem;
+        padding-right: 2.5rem;
+    }
+
+    .contact section.infoBox {
+        padding-bottom: 2rem;
+    }
+
+    .contact section.infoBox img.bottomLogo {
+        width: 59%;
+        padding-left: 1.5rem;
+        padding-bottom: 1rem;
+    }
+
+    .contact section.infoBox section {
+        display: flex;
+        flex-direction: row;
+        padding-top: 1rem;
+    }
+
+
+    .contact section.infoBox section img {
+        padding-top: .3rem;
+        padding-left: 1rem;
+    }
+
+    .contact section.infoBox section.location img {
+        width: 7%;
+        height: 1.3rem;
+    }
+
+    .contact section.infoBox section.phone img {
+        width: 5%;
+        height: .9rem;
+    }
+
+    .contact section.infoBox section.email img {
+        width: 8.5%;
+        height: 1.1rem;
+    }
+
+    .contact section.infoBox section p {
+        clear: right;
+        padding-left: 1.8rem;
+        line-height: 1.8rem;
+        font-size: .9rem;
+    }
+
+    .contact section.infoBox section.email p {
+        padding-left: 1.3rem;
+    }
+
+    .contact ul {
+        padding-top: 3rem;
+        font-size: 1rem;
+    }
+
+    .contact ul li {
+        padding-top: 1rem;
+    }
+
+    .attribution {
+        padding-top: 3rem;
+    }
+}
+
+
+
+/* 
+    Task: 
+    - You developed the website MOBILE FIRST so your default styles are default
+    - Now, you need to develop the website for desktop screens and make it responsive
+        - Work out of the below media query to apply desktop styles
+        - No every rule of a declaration will need to be changed so work on each style one by one
+*/
+
+/* Breakpoint/Media Query for Desktop Sizes */
+@media screen and (min-width: 376px) {
+
+    /* header */
+    header {
+        padding-top: 2px;
+        padding-left: 3rem;
+    }
+
+    header img {
+        width: 8%;
+    }
+
+    nav {
+        padding-left: 63rem;
+    }
+
+    nav a {
+        padding-left: 2rem;
+        font-size: .8rem;
+    }
+
+    /* Hero */
+    .hero {
+        background-image: url(bg-curvy-mobile.svg);
+        background-color: (217, 28%, 15%);
+        background-size: 100% 48%;
+        background-repeat: no-repeat;
+        background-position: right 60% bottom 0%;
+        height: 50rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .hero img {
+        background: none;
+        padding-top: 40px;
+        padding-left: 34rem;
+        padding-right: .5rem;
+        width: 30%;
+        height: 40%;
+        align-items: center;
+    }
+    
+    .hero h1 {
+        padding-top: 10px;
+        padding-left: 33rem;
+        padding-right: 1rem;
+        width: 30rem;
+        font-size: 1.6rem;
+        line-height: 2rem;
+        font-weight: lighter;
+    }
+    
+    .hero p {
+        padding-top: 10px;
+        padding-left: 36.4rem;
+        height: 6rem;
+        width: 24rem;
+        font-size: .78rem;
+        text-align: center;
+        line-height: 1.5rem;
+    }
+    
+    .hero button {
+        margin-top: 0px;
+        margin-left: 43.5rem;
+        margin-right: 4rem;
+        border-radius: 30rem;
+        border: 0;
+        padding: 0;
+        width: 10rem;
+        height: 2rem;
+        font-size: .6rem;
+    }
+    
+
+    /* Features */
+    .features {
+        background-color: hsl(218, 28%, 13%);
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding-top: 0;
+        padding-left: 10rem;
+        padding-right: 10rem;
+        text-align: center;
+    }
+    
+    .features section.topFeatures {
+        display: flex;
+        flex-direction: row;
+        padding-top: 0;
+    }
+
+    .features section.bottomFeatures{
+        display: flex;
+        flex-direction: row;
+        padding-top: 0;
+        padding-top: 1rem;
+    }
+    
+    .features section section.featureItems{
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    
+    .features section h2 {
+        padding-top: 1.4rem;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    
+    .features p {
+        padding-top: .8rem;
+        padding-left: 2rem;
+        padding-right: 3rem;
+        font-size: .7rem;
+        line-height: 1.5rem;
+    }
+
+    .features section.bottomFeatures{
+        padding-left: 3rem;
+    }
+
+    .features section.bottomFeatures section.featureItems {
+        padding-left: 1rem;
+        padding-right: 3rem;
+    }
+
+    .features section.bottomFeatures section.featureItems p{
+        font-size: .9rem;
+    }
+    
+    .features section.bottomFeatures section.featureItems section.store {
+        padding-top: 0;
+    }
+
+    .features section.bottomFeatures section.featureItems section.store img{
+        padding-left: 2.5rem;    
+    }
+
+    .features section.bottomFeatures section.featureItems section.store h2 {
+        padding-left: 3.5rem;
+    } 
+
+    .features section.bottomFeatures section.featureItems section.store p {
+        padding-left: 6rem;
+        padding-right: 4rem;
+        font-size: .9rem;
+    }
+        
+    /* Mid */
+
+    .mid {
+        display: flex;
+        flex-direction: row;
+        padding-top: 8rem;
+        line-height: 1.4rem;
+
+    }
+
+    .mid section.prodcutiveBox{
+        padding-left: 3rem;
+        padding-right: 8em;
+    }
+
+    .mid img.people {
+        width: 50%;
+        padding-left: 8rem;
+    }
+
+    .mid h2 {
+        padding-top: 5rem;
+        width: 70%;
+        font-size: 2rem;
+        line-height: 3rem;
+        letter-spacing: .1rem;
+    }
+
+    .mid section.prodcutiveBox section.works{
+        padding-top: .5rem;
+        width: 36%;
+        border-bottom: solid 1px hsl(176, 68%, 64%);
+    }
+
+    /* Team */
+
+    .team {
+        display: flex;
+        flex-direction: column;
+        height: 40rem;
+        padding-left: 10rem;
+        padding-top: 5rem;
+    }
+
+    .team section.teamProfile {
+        display: flex;
+        flex-direction: row;
+        background-image: url(bg-quotes.png);
+        background-repeat: no-repeat;
+        background-position: bottom 97% left 5.3%;
+        background-size: 2rem;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+
+    }
+
+    .team section.profileBox {
+        background-color: #21293C;
+        margin-top: 1.5rem;
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+        padding-top: 1.6rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        width: 22%;
+        height: 8rem;
+    }
+
+    .team section.profileBox p {
+        font-size: .68rem;
+        line-height: 1rem;
+    }
+
+    .team section.profileBox section.profileSet img {
+        width: 1.2rem;
+        height: 10%;
+        border-radius: 20rem;
+    }
+
+    .team section.profileBox section.profileSet section.profileInfo h2 {
+        font-size: .4rem;
+        font-weight: bold;
+        letter-spacing: .06rem;
+    }
+
+    .team section.profileBox section.profileSet section.profileInfo h3 {
+        font-size: .4rem;
+    }
+
+
+
+    /* Sign In */
+    .team section.signIn {
+        display: flex;
+        flex-direction: column;
+        background-color: hsl(217, 28%, 15%);
+        margin-top: 15rem;
+        margin-left: 15rem;
+        margin-right: 1rem;
+        border-radius: 0;
+        border: solid 1px hsl(217, 28%, 15%);
+        text-align: center;
+        box-shadow: 10px 10px 20px #0a0a0ab4;
+        padding-bottom: 2rem;
+        width: 50%;
+    }
+
+    .team .signIn h1 {
+        /* padding-top: 3rem;
+        font-size: 1rem;
+        font-weight: bold; */
+    }
+
+    .team .signIn p {
+        /* padding-top: 1rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        font-size: .86rem;
+        line-height: 1.5rem; */
+    }
+
+    .team .signIn input {
+        /* margin-top: 2rem;
+        margin-left: 1.5rem;
+        margin-right: 4rem;
+        width: 16rem;
+        height: 3rem;
+        border-radius: 30rem;
+        border: 0;
+        padding-left: 2rem;
+        font-size: .8rem; */
+    }
+
+    .team .signIn input::placeholder {
+        /* opacity: 30%; */
+    }
+
+
+    .team .signIn button {
+        /* margin-top: 1rem;
+        margin-left: 1.5rem;
+        margin-right: 2rem;
+        width: 18rem;
+        height: 3.3rem;
+        border-radius: 30rem;
+        border: 0;
+        background: linear-gradient(45deg, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+        color: #ffffff;
+        font-size: 1rem; */
+    }
+
+    /* Footer */
+    footer {
+        display: flex;
+        flex-direction: column;
+        background-color: hsl(216, 53%, 9%);
+        align-items: center;
+
+        /* Contact */
+        .contact {
+            /* display: flex;
+            flex-direction: column;
+            padding-top: 15rem;
+            padding-left: 1.5rem;
+            padding-right: 2.5rem; */
+        }
+
+        .contact section.infoBox {
+            /* padding-bottom: 2rem; */
+        }
+
+        .contact section.infoBox img.bottomLogo {
+            /* width: 59%;
+            padding-left: 1.5rem;
+            padding-bottom: 1rem; */
+        }
+
+        .contact section.infoBox section {
+            /* display: flex;
+            flex-direction: row;
+            padding-top: 1rem; */
+        }
+
+
+        .contact section.infoBox section img {
+            /* padding-top: .3rem;
+            padding-left: 1rem; */
+        }
+
+        .contact section.infoBox section.location img {
+            /* width: 7%;
+            height: 1.3rem; */
+        }
+
+        .contact section.infoBox section.phone img {
+            /* width: 5%;
+            height: .9rem; */
+        }
+
+        .contact section.infoBox section.email img {
+            /* width: 8.5%;
+            height: 1.1rem; */
+        }
+
+        .contact section.infoBox section p {
+            /* clear: right;
+            padding-left: 1.8rem;
+            line-height: 1.8rem;
+            font-size: .9rem; */
+        }
+
+        .contact section.infoBox section.email p {
+            /* padding-left: 1.3rem; */
+        }
+
+        .contact ul {
+            /* padding-top: 3rem;
+            font-size: 1rem; */
+        }
+
+        .contact ul li {
+            /* padding-top: 1rem; */
+        }
+
+        .contact section.infoBox section.aboutUs
+
+        .attribution {
+            padding-top:10em;
+        }
+
+
+    }
+}
